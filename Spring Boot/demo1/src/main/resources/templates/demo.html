@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lxmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Thymeleaf</title>
+</head>
+<body>
+    <p th:text="${message}">Default message</p>
+    <p th:text="${student.name}">Tên Sinh Viên</p>
+    <p th:text="#{welcome}">Welcome default</p>
+
+    <a><a th:href="@{/home}">Go to Home</a>
+    
+</body>
+</html>
